@@ -10,7 +10,7 @@ namespace MvcMovie.Models
         public string Title { get; set; }
 
         [DataType(DataType.Date)]
-        public DateTime ReleaseDate { get; set; }
+        public DateTime ReleseDate { get; set; }
         public string Gerne { get; set;}
         public decimal Price { get; set; }
     }
